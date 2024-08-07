@@ -6,21 +6,16 @@ Predicts particle impact velocity of cold spray systems.
 
 Savei is a Python-based application designed to predict particle impact velocity in cold spray additive manufacturing processes. This tool aims to assist engineers and researchers in optimizing and analyzing cold spray techniques by providing accurate velocity predictions based on various input parameters.
 
-## ⚠️ DISCLAIMER ⚠️
+### ⚠️ DISCLAIMER ⚠️
 
 This tool is intended for educational and research purposes only. It is your responsibility to ensure that any use of this tool complies with all applicable laws and regulations. The developers and contributors of this project are not responsible for any misuse or consequences arising from the use of this tool.
 
 ## Features
 
-`*` Make predictions using advanced computational models.
-`*` Includes particle critical velocity and particle erosion velocity.
-`*` Easy-to-use graphical user interface (GUI) built with Tkinter.
-`*` Visualizes data and predictions using Matplotlib.
-
-### Take a look
-
-![GUI Main Screen](assets/gui.png)
-![Prediction Results](assets/prediction.png)
+- Make predictions using advanced computational models.
+- Includes particle critical velocity and particle erosion velocity.
+- Easy-to-use graphical user interface.
+- Visualizes data and predictions.
 
 ## Installation
 
@@ -65,35 +60,14 @@ Tkinter is included with Python's standard library. You don’t need to install 
 
 2. **Using the GUI**
 
-   `*` Input the necessary parameters for your cold spray system.
-   `*` Click the "Predict" button to compute the particle impact velocity.
-   `*` View and analyze the results displayed in the application.
+   1. Input the necessary parameters for your cold spray system.
+   2. Click the "Predict" button to compute the particle impact velocity.
+   3. View and analyze the results displayed in the application.
 
-## Contributing
+### Example
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-Savei was developed as a senior design project at my university. We are grateful for the university's support and resources.
-
-Special thanks to our mentors for their invaluable guidance and expertise throughout the project. We also appreciate the Department of Defense (DoD) for their support in testing and validating the application's predictive capabilities.
-
-The following sources were crucial in shaping the equations and concepts used in Savei:
-
-- **Assadi, H., Schmidt, T., Richter, H., Kliemann, J.-O., Binder, K., Gärtner, F., Klassen, T., & Kreye, H.** (2011). _On Parameter Selection in Cold Spraying_. Journal of Thermal Spray Technology, 20(6), 1161–1176. [DOI: 10.1007/s11666-011-9662-9](https://doi.org/10.1007/s11666-011-9662-9)
-
-- **Arbegast Materials Processing and Joining Lab**. (2012). _Cold Spray: A Guide to Best Practice_. South Dakota School of Mines and Technology, Rapid City, SD.
-
-- **Zou, Y.** (2021). _Cold Spray Additive Manufacturing: Microstructure Evolution and Bonding Features_. _Accounts of Materials Research_, 2, 1071−1081. [DOI: 10.1021/accountsmr.1c00138](https://pubs.acs.org/doi/10.1021/accountsmr.1c00138?ref=pdf)
-
-- **Champagne Jr., V. K., Ozdemir, O. C., & Nardi, A.** (Eds.). (2020). _Practical Cold Spray_. Springer. ISBN 978-3-030-70055-3; ISBN 978-3-030-70056-0 (eBook). [DOI: 10.1007/978-3-030-70056-0](https://doi.org/10.1007/978-3-030-70056-0)
-
-These contributions have been foundational to Savei. We will update this section as more sources are identified.
+![GUI Main Screen](assets/gui.png)
+![Prediction Results](assets/prediction.png)
 
 ## Tests
 
@@ -111,3 +85,27 @@ Savei was validated using a single spray data set to assess its accuracy in pred
 
 - **Accuracy**: Achieved 97.06% accuracy for the single spray data set used in validation.
 - **Observations**: The tool’s prediction was very close to the actual measured speed, indicating its effectiveness in predicting particle impact velocities for the tested parameter.
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+Savei was developed as a senior design project at my university. We are grateful for the university's support and resources.
+
+Special thanks to our mentors for their invaluable guidance and expertise throughout the project. We also appreciate the Department of Defense for their support in testing and validating the application's predictive capabilities.
+
+The following sources were crucial in shaping the equations and concepts used in Savei:
+
+- **Assadi, H., Schmidt, T., Richter, H., Kliemann, J.-O., Binder, K., Gärtner, F., Klassen, T., & Kreye, H.** (2011). _On Parameter Selection in Cold Spraying_. Journal of Thermal Spray Technology, 20(6), 1161–1176. [DOI: 10.1007/s11666-011-9662-9](https://doi.org/10.1007/s11666-011-9662-9)
+
+- **Arbegast Materials Processing and Joining Lab**. (2012). _Cold Spray: A Guide to Best Practice_. South Dakota School of Mines and Technology, Rapid City, SD.
+
+- **Champagne Jr., V. K., Ozdemir, O. C., & Nardi, A.** (Eds.). (2020). _Practical Cold Spray_. Springer. ISBN 978-3-030-70055-3; ISBN 978-3-030-70056-0 (eBook). [DOI: 10.1007/978-3-030-70056-0](https://doi.org/10.1007/978-3-030-70056-0)
+
+- **Zou, Y.** (2021). _Cold Spray Additive Manufacturing: Microstructure Evolution and Bonding Features_. _Accounts of Materials Research_, 2, 1071−1081. [DOI: 10.1021/accountsmr.1c00138](https://pubs.acs.org/doi/10.1021/accountsmr.1c00138?ref=pdf)
