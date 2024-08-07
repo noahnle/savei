@@ -405,7 +405,7 @@ Cp_input.grid(row=14, column=1, padx=50, sticky='ew')
 
 """"middle column"""
 # logo
-logo_path = '/Users/noahle/Desktop/savei/logo.png'
+logo_path = 'assets/logo.png'
 logo_image = Image.open(logo_path)
 resized_logo = logo_image.resize((150, 150))
 logo = ImageTk.PhotoImage(resized_logo)
