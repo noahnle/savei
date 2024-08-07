@@ -19,11 +19,6 @@ This tool is intended for educational and research purposes only. It is your res
 
 ## Installation
 
-### Prerequisites
-
-- **Python Version**: Ensure you are using a compatible version. I recommend to use Python 3.11.9 because it's currently working.
-- **Required Python packages**: Listed in `requirements.txt`. Install them after setting up your virtual environment.
-
 ### Setup
 
 1. **Clone the Repository**
@@ -36,8 +31,11 @@ This tool is intended for educational and research purposes only. It is your res
 2. **Create and Activate a Virtual Environment**
 
    ```bash
-   python3 -m venv venv  # Use 'python' instead of 'python3' if it refers to Python 3.x
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python3.11 -m venv savei-venv
+   ```
+
+   ```bash
+   source savei-venv/bin/activate  # On Windows: savei-venv\Scripts\activate
    ```
 
 3. **Install Dependencies**
@@ -48,7 +46,7 @@ This tool is intended for educational and research purposes only. It is your res
 
 #### Note
 
-Tkinter is included with Python's standard library. You don’t need to install it separately via `pip`. If you encounter issues with Tkinter, ensure it's included in your Python installation.
+Tkinter is included with most Python installations, but it may not be available in some versions. If you encounter issues, verify that Tkinter is included in your Python installation. I recommend to use Python 3.11.9 because it's what currently working.
 
 ## Usage
 
