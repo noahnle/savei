@@ -46,7 +46,7 @@ This tool is intended for educational and research purposes only. It is your res
 
 #### Note
 
-Tkinter is included with most Python installations, but it may not be available in some versions. If you encounter issues, verify that Tkinter is included in your Python installation. I recommend to use Python 3.11.9 because it's what currently working.
+Tkinter is included with most Python installations, but it may not be available in some versions. If you encounter issues, verify that Tkinter is included in your Python installation. I recommend to use Python 3.11.
 
 ## Usage
 
