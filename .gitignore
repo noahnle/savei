@@ -1,0 +1,55 @@
+# python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# virtual environment
+venv/
+env/
+ENV/
+*.egg-info/
+
+# ide and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# os-specific files
+.DS_Store
+Thumbs.db
+
+# log files
+*.log
+
+# matplotlib figures
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# custom assets
+assets/
+
+# temporary files
+*.tmp
+*.bak
+*.swp
+
+# environment variables and secrets
+.env
+*.secret
+
+# build directories
+build/
+dist/
+*.egg
+*.egg-info/
+pip-wheel-metadata/
