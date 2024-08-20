@@ -94,9 +94,9 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ## Acknowledgments
 
-Savei was developed as a senior design project at my university. We are grateful for the university's support and resources.
+This was my a senior design project.
 
-Special thanks to our mentors for their invaluable guidance and expertise throughout the project. We also appreciate the Department of Defense for their support in testing and validating the application's predictive capabilities.
+Shoutout to our mentors for their guidance and expertise throughout the project. We also appreciate the Department of Defense for their support in testing and validating the application's predictive capabilities.
 
 The following sources were crucial in shaping the equations and concepts used in Savei:
 
