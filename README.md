@@ -6,10 +6,6 @@ Predicts particle impact velocity of cold spray systems.
 
 Savei is a Python-based application designed to predict particle impact velocity in cold spray additive manufacturing processes. This tool aims to assist engineers and researchers in optimizing and analyzing cold spray techniques by providing accurate velocity predictions based on various input parameters.
 
-### ⚠️ DISCLAIMER ⚠️
-
-This tool is intended for educational and research purposes only. It is your responsibility to ensure that any use of this tool complies with all applicable laws and regulations. The developers and contributors of this project are not responsible for any misuse or consequences arising from the use of this tool.
-
 ## Features
 
 - Make predictions using advanced computational models.
@@ -84,17 +80,13 @@ Savei was validated using a single spray data set to assess its accuracy in pred
 - **Accuracy**: Achieved 97.06% accuracy for the single spray data set used in validation.
 - **Observations**: The tool’s prediction was very close to the actual measured speed, indicating its effectiveness in predicting particle impact velocities for the tested parameter.
 
-## Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/noahnle/savei/blob/main/LICENSE) file for details.
 
 ## Acknowledgments
 
-This was my a senior design project.
+This was a senior design project.
 
 Shoutout to our mentors for their guidance and expertise throughout the project. We also appreciate the Department of Defense for their support in testing and validating the application's predictive capabilities.
 
@@ -107,3 +99,7 @@ The following sources were crucial in shaping the equations and concepts used in
 - **Champagne Jr., V. K., Ozdemir, O. C., & Nardi, A.** (Eds.). (2020). _Practical Cold Spray_. Springer. ISBN 978-3-030-70055-3; ISBN 978-3-030-70056-0 (eBook). [DOI: 10.1007/978-3-030-70056-0](https://doi.org/10.1007/978-3-030-70056-0)
 
 - **Zou, Y.** (2021). _Cold Spray Additive Manufacturing: Microstructure Evolution and Bonding Features_. _Accounts of Materials Research_, 2, 1071−1081. [DOI: 10.1021/accountsmr.1c00138](https://pubs.acs.org/doi/10.1021/accountsmr.1c00138?ref=pdf)
+
+### ⚠️ DISCLAIMER ⚠️
+
+This tool is intended for educational and research purposes only. It is your responsibility to ensure that any use of this tool complies with all applicable laws and regulations. The developers and contributors of this project are not responsible for any misuse or consequences arising from the use of this tool.
